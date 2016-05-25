@@ -1,8 +1,8 @@
 {
-  "name": "Console app on Heroku",
+  "name": ".NET Core ConsoleApp on Heroku",
   "description": "This will deploy a very basic Console App and run it on Heroku using the new .NET Core Buildpack",
-  "repository": "https://github.com/heroku-net/netcore",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "repository": "http://github.com/softtrendsllc/consoleapp",
+  "logo": "https://raw.githubusercontent.com/herokumx/herokumxnet/master/NETChatterGroup.png",
   "keywords": [".NET", "Microsoft", "Console App"],
   "buildpacks": [
     {
