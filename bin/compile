@@ -118,7 +118,7 @@ for PACKAGE in $(cat $BUILD_DIR/Aptfile); do
     PACKAGE_NAME=$(basename $PACKAGE .deb)
     PACKAGE_FILE=$APT_CACHE_DIR/archives/$PACKAGE_NAME.deb
 
-    print "Fetching $PACKAGE"
+    print "Fetching $PACKAGE from $PACKAGE_FILE"
     curl -s -L -z $PACKAGE_FILE -o $PACKAGE_FILE $PACKAGE 2>&1 | indent
   else
     print "Fetching .debs for $PACKAGE"
